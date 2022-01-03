@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+
+.main_main {
+    background: #ffff;
+}
+.wrapper_main {
+    width: 1000px;
+    min-height: 744px;
+    background: #ffff;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.hits {
+    display: flex
+}
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    margin: 40px 0;
+}
+.buttons > img {
+    cursor: pointer;
+}
+.title_grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+}
+
+.card {
+    width: 23%;
+    min-height: 359px;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.price {
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.subtitle {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.subscribe {
+    font-size: 14px;
+}
+
+.bag {
+    background-color: #FED700;
+    width: 115px;
+    min-height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.half_banners {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.half_banner {
+    width: 50%;
+}
+
+.subscribe_news {
+    font-weight: 700;
+
+}
+.card_news {
+    min-height: 200px;
+        width: 23%;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

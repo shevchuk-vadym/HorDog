@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;800;900&display=swap');
+
+.main {
+  width: 100vw;
+  margin: 0 auto;
+  min-height: 744px;
+}
+.main_head {
+  background: #fed700;
+}
+.wrapper_head {
+  width: 1000px;
+  min-height: 744px;
+  background: #fed700;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  min-height: 152px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 23%;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  width: 54%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-input {
+  min-width: 509px;
+  min-height: 48px;
+  border-radius: 20px;
+  border: black 1px solid;
+}
+.nav {
+  width: 15%;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar {
+  width: 20px;
+  height: 20px;
+}
+.description {
+  width: 100%;
+  min-height: 544px;
+  display: flex;
+}
+.desc {
+  width: 50%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.picture {
+  width: 50%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  position: relative;
+  width: 80%;
+  transform: scaleX(-1);
+}
+.button {
+  width: 154px;
+  min-height: 56px;
+  background: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+.button > span {
+  font-family: Nunito;
+  font-weight: 800;
+}
+.title {
+  font-family: Nunito;
+  line-height: 52px;
+  font-size: 44px;
+  font-weight: 900;
+  fill: solid;
+}
+.subtext {
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 300;
+}
+.bottom_nav {
+  width: 992px;
+  min-height: 132px;
+  background: #ffff;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 10px 10px rgba(96, 97, 112, 0.16);
+}
+.navigation {
+  width: 92px;
+  height: 92px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.half_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+
+@media screen {
+}
