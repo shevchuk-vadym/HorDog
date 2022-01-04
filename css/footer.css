@@ -150,3 +150,42 @@
   min-height: 700px;
   display: flex;
 }
+
+@media (max-width: 768px) {
+  .desc_footer {
+    flex-direction: column;
+  }
+  .wrapper_footer {
+    width: 375px;
+  }
+  .catalog {
+    display: none;
+  }
+  .contacts {
+    display: none;
+  }
+  .logo_footer {
+    display: none;
+  }
+  .socials {
+    min-height: 140px;
+    width: 100%;
+  }
+  .picture_footer {
+    width: 80%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(../Images/footer/sleeping\ 1.svg),
+      url(../Images/footer/Vector.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, bottom 0 right 0;
+  }
+  .input_name {
+    margin-left: 16px;
+    width: 343px;
+  }
+  .input_mail {
+    margin-left: 16px;
+    width: 343px;
+  }
+}

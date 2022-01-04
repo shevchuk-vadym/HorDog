@@ -12,8 +12,11 @@
 
 .banner {
   width: 100%;
+  height: 260px;
   margin-top: 40px;
   cursor: pointer;
+  background: url(../Images/Banner.svg) no-repeat;
+  margin: 0 auto;
 }
 .banner :hover {
   opacity: 60%;
@@ -51,9 +54,7 @@
   background-position: top right;
   cursor: pointer;
 }
-.card :hover {
-  opacity: 60%;
-}
+
 .price {
   margin-top: 30px;
   font-weight: 800;
@@ -105,4 +106,65 @@
 }
 .card_news :hover {
   opacity: 60%;
+}
+
+@media (max-width: 768px) {
+  .wrapper_main {
+    width: 375px;
+  }
+  .banner {
+    width: 343px;
+    height: 152px;
+    background: url(../Images/mobile/Banner.svg) no-repeat;
+  }
+  .title {
+    margin-left: 16px;
+  }
+  .title > span {
+    font-size: 38px;
+  }
+
+  .buttons {
+    display: none;
+  }
+  .card.first {
+    display: none;
+  }
+  .card.third {
+    display: none;
+  }
+  .card {
+    width: 50%;
+  }
+  .image {
+    width: 187px;
+  }
+  .image > img {
+    width: 93%;
+  }
+  .title_grid {
+    margin-left: 16px;
+  }
+  .half_banner.second {
+    display: none;
+  }
+
+  .half_banner.first {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .half_banner.first > img {
+    width: 343px;
+  }
+  .card_news {
+    min-height: 200px;
+    width: 50%;
+  }
+  .card_news.first {
+    display: none;
+  }
+  .card_news.third {
+    display: none;
+  }
 }
