@@ -1,92 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
 
 .main_main {
-    background: #ffff;
+  background: #ffff;
 }
 .wrapper_main {
-    width: 1000px;
-    min-height: 744px;
-    background: #ffff;
-    margin: 0 auto;
+  width: 1000px;
+  min-height: 744px;
+  background: #ffff;
+  margin: 0 auto;
 }
 
 .banner {
-    width: 100%;
-    margin-top: 40px;
+  width: 100%;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.banner :hover {
+  opacity: 60%;
 }
 
 .hits {
-    display: flex
+  display: flex;
 }
 .title {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 800;
-    margin: 40px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  margin: 40px 0;
 }
 .buttons > img {
-    cursor: pointer;
+  cursor: pointer;
 }
 .title_grid {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 40px;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
 }
 
 .card {
-    width: 23%;
-    min-height: 359px;
-        display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  width: 24%;
+  min-height: 359px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: url(../Images/ic-favorites.svg) no-repeat;
+  background-position: top right;
+  cursor: pointer;
 }
-
+.card :hover {
+  opacity: 60%;
+}
 .price {
-    margin-top: 30px;
-    font-weight: 800;
-    font-size: 20px;
+  margin-top: 30px;
+  font-weight: 800;
+  font-size: 20px;
 }
 .subtitle {
-    font-weight: 400;
-    font-size: 12px;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .subscribe {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .bag {
-    background-color: #FED700;
-    width: 115px;
-    min-height: 40px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #fed700;
+  width: 115px;
+  min-height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 .half_banners {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.half_banner :hover {
+  opacity: 60%;
 }
 .half_banner {
-    width: 50%;
+  width: 50%;
 }
 
 .subscribe_news {
-    font-weight: 700;
-
+  font-weight: 700;
 }
 .card_news {
-    min-height: 200px;
-        width: 23%;
-        display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  min-height: 200px;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.card_news :hover {
+  opacity: 60%;
 }

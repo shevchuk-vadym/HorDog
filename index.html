@@ -12,14 +12,15 @@
   <body>
     <head>
         <div class="main_head">
+            <div class="wrapp"></div>
           <div class="wrapper_head">
             <div class="header">
               <div class="logo">
                 <img src="./Images/Logo.svg" alt="" />
-                <h2>HorDog</h2>
+                <span>HorDog</span>
               </div>
               <div class="search">
-                <input class="search-input" type="search" />
+                <input class="search-input" type="text" placeholder="Поиск" />
               </div>
               <div class="nav">
                 <div class="navbar">
@@ -36,7 +37,7 @@
             <div class="description">
               <div class="desc">
                 <div class="title">
-                  <span>Крафтовые лакомства для <br />собак</span>
+                  <span>Крафтовые <br /> лакомства для <br />собак</span>
                 </div>
                 <div class="subtext">
                   <span>
@@ -47,7 +48,8 @@
                 <div class="button"><span>Каталог ></span></div>
               </div>
               <div class="picture">
-                <img class="img" src="./Images/HorDog.png" alt="" />
+                <!-- <img class="img" src="./Images/HorDog.png" alt="" /> -->
+                <div class="img"></div>
               </div>
             </div>
             <div class="bottom_nav">
@@ -309,7 +311,6 @@
                 </div>
                 <div class="date">12 май 2021</div>
                 <div class="subscribe_news">Дрессировка щенка: что нужно знать</div>
-                
               </div>
               <div class="card_news">
                 <div class="image">
@@ -394,24 +395,28 @@
       <footer>
         <div class="main_footer">
             <div class="wrapper_footer">
-                <div class="description">
-              <div class="desc">
+                <div class="description_footer">
+                    <div class="desc_footer">
+                  <div class="desc_footer_wrapper">
                 <div class="title">
                   <span>Остались <br> ВОПРОСЫ?</span>
                 </div>
                 <div class="subtext">
                   <span>
-                    Заполните пожалуйста поля ниже, чтобы мы могли связаться с вами
+                    Заполните пожалуйста поля ниже, <br> чтобы мы могли связаться с вами
                   </span>
                 </div>
-                <input class="input" type="text" value="Александр">
-                <input class="input" type="phone">
+                <div class="input_name" >
+                    <span>Ваше имя</span>
+                    <input type="text">
+                </div>
+                <input class="input_mail" type="text" placeholder="Телефон или Email">
                 <div class="button"><span>Отправить</span></div>
               </div>
               <div class="picture_footer">
                 <img class="img_footer" src="./Images/footer/IMG_7632 main.svg" alt="" />
               </div>
-            </div>
+              </div>
             <div class="banner_footer">
                 <div class="logo_footer">
                     <div class="logo_main"> <img src="./Images/Logo.svg" alt="" />
@@ -430,6 +435,7 @@
                         <img src="./Images/socials/logo-viber.svg" alt="">
                         <img src="./Images/socials/logo-vk.svg" alt="">
                         <img src="./Images/socials/logo-whatsapp.svg" alt=""></div></div>
+            </div>
             </div>
             </div>
         </div>
