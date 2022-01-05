@@ -13,36 +13,30 @@
   background: #ffff;
   height: 48px;
   border-radius: 15px;
-  font-size: 21px;
+  font-size: 16px;
   font-family: Nunito;
-  color: #7b8e98;
   padding: 0 0 0 16px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin-top: 24px;
+  width: 318px;
 }
-.input_name > span {
-  font-family: Nunito;
-  font-weight: 400;
+.input_name ::placeholder {
+  color: #7b8e98;
   font-size: 12px;
-}
-.input_name > input {
-  height: 70%;
-  max-width: 80%;
-  font-family: Nunito;
-  font-weight: 400;
-  font-size: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .input_mail {
   height: 48px;
   border-radius: 15px;
   font-size: 16px;
   font-family: Nunito;
-  color: #7b8e98;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 16px;
   margin: 8px 0 24px 0;
   width: 318px;
+}
+.input_mail::placeholder {
+  color: #7b8e98;
 }
 .picture_footer {
   width: 40%;
@@ -178,14 +172,20 @@
     background-image: url(../Images/footer/sleeping\ 1.svg),
       url(../Images/footer/Vector.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: center, bottom 0 right 0;
+    background-position: top 0 left 10%, bottom 0 right 0;
+    background-size: 30%, 30%;
   }
   .input_name {
     margin-left: 16px;
     width: 343px;
   }
   .input_mail {
-    margin-left: 16px;
     width: 343px;
+    margin: 8px 0 0 16px;
+  }
+  .button.footer {
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-bottom: 10px;
   }
 }
