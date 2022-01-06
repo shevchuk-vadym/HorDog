@@ -3,6 +3,9 @@
 .main_main {
   background: #ffff;
 }
+.mobile {
+  display: none;
+}
 .img_favorite {
   width: 24px;
   height: 24px;
