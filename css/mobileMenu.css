@@ -9,7 +9,10 @@
     display: none;
   }
   .mobile_wrapper {
-    width: 100%;
+    background: #ffff;
+
+    width: 375px;
+    margin: 0 auto;
     height: 100%;
     display: flex;
     justify-content: space-between;
