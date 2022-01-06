@@ -1,4 +1,4 @@
-const button = document.querySelector('.nav');
+const button = document.querySelector('.nav_mobile');
 const mobMenu = document.querySelector('.mobile');
 const mobMenuClose = document.querySelector('.mobile_close');
 
@@ -8,5 +8,3 @@ button.addEventListener('click', () => {
 mobMenuClose.addEventListener('click', () => {
   mobMenu.style.display = 'none';
 });
-
-console.log('hi');
