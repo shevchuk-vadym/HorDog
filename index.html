@@ -8,12 +8,53 @@
   <link rel="stylesheet" href="css/head.css" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/mobileMenu.css">
   <title>HorDog</title>
 </head>
 
 <body>
+  <div class="mobile active">
+    <div class="mobile_wrapper">
+      <div class="mobile_content">
+        <div class="mobile_header">
+          <div class="mobile_close"></div>
+          <div class="mobile_signin"><span>Войти</span></div>
+        </div>
+        <div class="mobile_menu">
+          <div class="mobile_card"><img class="img_icon" src="./Images/mobile/ic-catalog1.svg" alt=""><span>Каталог</span></div>
+          <div class="mobile_card"><img class="img_icon" src="./Images/mobile/ic-2.svg" alt=""><span>Избранное</span></div>
+          <div class="mobile_card"><img class="img_icon" src="./Images/mobile/ic-3.svg" alt=""><span>Акции</span></div>
+          <div class="mobile_card"><img class="img_icon" src="./Images/mobile/ic-4.svg" alt=""><span>Новости</span></div>
+          <div class="mobile_card"><img class="img_icon" src="./Images/mobile/ic-5.svg" alt=""><span>Отзывы</span></div>
+        </div>
+        <div class="mobile_desc">
+          <div class="separator"></div>
+          <div class="mobile_description">
+          <span class="mobile_title">Оплата и доставка</span>
+          <span class="mobile_title">Часто спрашивают</span>
+          <span class="mobile_title">Обратная связь</span>
+          <span class="mobile_title">Контакты</span>
+        </div>
+          <div class="separator"></div>
+        </div>
+      </div>
+      <div class="mobile_footer">
+        <div class="mobile_footer_wrapper">
+          <div class="mobile_image"></div>
+          <div class="mobile_support">
+            <div class="support_title">
+              <span class="ask">Остались вопросы?</span>
+              <span class="service">Обратитесь в нашу службу поддержки</span>
+            </div>
+            <div class="mobile_button">Перейти</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <head>
-    <div class="main_head">
+    <div class="main_head active">
       <div class="wrapper_head">
         <div class="header">
           <div class="logo">
@@ -33,11 +74,12 @@
             <div class="navbar">
               <img src="./Images/navbar/ic-profile-3.svg" alt="" />
             </div>
+            <div class="nav_mobile"></div>
           </div>
         </div>
         <div class="description">
           <div class="desc">
-            <div class="title">
+            <div class="title top">
               <span>Крафтовые <br /> лакомства для <br />собак</span>
             </div>
             <div class="subtext">
@@ -82,7 +124,7 @@
       </div>
     </div>
   </head>
-  <div class="main_main">
+  <div class="main_main active">
     <div class="wrapper_main">
       <div class="banner"></div>
       <div class="hits">
@@ -403,7 +445,7 @@
                   </span>
                 </div>
                 <input class="input_name" placeholder="Ваше имя">
-              </input>
+                </input>
                 <input class="input_mail" type="text" placeholder="Телефон или Email">
                 <div class="button footer"><span>Отправить</span></div>
               </div>
@@ -439,5 +481,5 @@
       </div>
     </footer>
 </body>
-
+<script src="./scripts.js"></script>
 </html>

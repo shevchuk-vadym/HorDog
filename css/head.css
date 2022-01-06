@@ -94,7 +94,6 @@
 }
 .img {
   background: url(../Images/HorDog.svg) no-repeat right 50% center;
-  position: relative;
   width: 100%;
   height: 400px;
 }
@@ -163,17 +162,28 @@
   .header {
     min-height: 72px;
   }
-  .nav {
+  .nav_mobile {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: url(../Images/mobile/Menu.svg) no-repeat center;
   }
   .logo > span {
     display: none;
+  }
+  .logo > img {
+    width: 70%;
   }
   .navbar {
     display: none;
   }
   .title {
     margin: 0;
+  }
+  .title.top {
+    margin-top: 116px !important;
   }
   .description {
     flex-direction: column;
