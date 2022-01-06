@@ -7,8 +7,7 @@
 }
 .wrapper_head {
   width: 1000px;
-  min-height: 744px;
-  /* background: #fed700; */
+  min-height: 622px;
   margin: 0 auto;
   z-index: 1111;
 }
@@ -41,7 +40,7 @@
   align-items: center;
 }
 .search-input {
-  min-width: 509px;
+  min-width: 515px;
   min-height: 48px;
   border-radius: 24px;
   font-family: Nunito;
@@ -56,8 +55,11 @@
   width: 15%;
   min-height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+.nav_mobile {
+  display: none;
 }
 .navbar {
   width: 20px;
