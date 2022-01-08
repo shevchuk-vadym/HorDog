@@ -76,7 +76,7 @@
 }
 .description_top {
   width: 100%;
-  min-height: 500px;
+  min-height: 470px;
   display: flex;
   flex-direction: row;
 }
