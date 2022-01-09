@@ -197,7 +197,7 @@
   .title.top {
     margin-top: 116px !important;
   }
-  .description {
+  .description_top {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;

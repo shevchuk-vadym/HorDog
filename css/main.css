@@ -44,7 +44,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 800;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .buttons > img {
   cursor: pointer;
@@ -59,7 +59,7 @@
 .card {
   position: relative;
   width: 24%;
-  min-height: 359px;
+  min-height: 323px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
