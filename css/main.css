@@ -44,7 +44,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 800;
-  margin: 40px 0;
+  margin-top: 40px;
 }
 .buttons > img {
   cursor: pointer;
